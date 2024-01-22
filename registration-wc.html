@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration-wc.css">
+    
+</head>
+<body>
+
+<div class="registration">
+    <p>You have not registered yet?</p>
+    <button class="register-button" onclick="showRegistrationForm()">Register Now</button>
+</div>
+
+<div id="registrationForm">
+    <h1>Fill the form</h1>
+    <form>
+        <label for="fullName">1. Full Name *</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="email">2. Email *</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="countryWithPermit">3. Country with Work Permit *</label>
+        <select id="countryWithPermit" name="countryWithPermit" required>
+            <option value="US">United States</option>
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="China">China</option>
+            <option value="Other">Other (Specify)</option>
+        </select>
+
+        <label for="phone">4. Contact Number *</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="college">5. College Name *</label>
+        <input type="text" id="college" name="college" required>
+
+        <label for="year">6. Year of Study *</label>
+        <input type="text" id="year" name="year" required>
+
+        <!-- Add the remaining form elements based on your requirements -->
+
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+</div>
+
+<script>
+    function showRegistrationForm() {
+        // Hide the "Register Now" button
+        document.querySelector('.registration').style.display = 'none';
+        // Show the registration form
+        document.getElementById('registrationForm').style.display = 'block';
+    }
+</script>
+
+</body>
+</html>

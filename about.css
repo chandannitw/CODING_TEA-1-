@@ -1,0 +1,56 @@
+header{
+    background-color: rgba(109, 109, 164, 0.849);
+    color: whitesmoke;
+    text-align: center;
+    padding: 2em;
+}
+.title-1
+{
+    font-size: 50px;
+}
+.abo
+{
+    background-color: rgb(88, 143, 4);
+    text-align: center;
+}
+.contest
+{
+    font-size: 20px;
+}
+.web
+{
+    font-size: 20px;
+}
+.design
+{
+    font-size: 20px;
+}
+.support
+{
+    font-size: 20px;
+}
+.workshop
+{
+    font-size: 20px;
+}
+.advertisment
+{
+    font-size: 20px;
+}
+.foot-panel3
+{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5 px solid white;
+    height:70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright
+{
+    padding-top: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+

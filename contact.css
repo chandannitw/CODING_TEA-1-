@@ -1,0 +1,112 @@
+body 
+{
+   background-color: rgb(111, 209, 160);
+}
+header{
+    background-color: rgba(109, 109, 164, 0.849);
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+}
+.title-1
+{
+    font-size: 50px;
+}
+.abo
+{
+    background-color: rgb(88, 143, 4);
+    text-align: center;
+}
+.headline
+{
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
+input[type="text"] 
+{
+    height: 50px;
+    width: 400px; 
+}
+.contact-us {
+    width: 600px; 
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.contact-us p {
+    margin: 5px 0;
+}
+
+.contact-us input 
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contact-us button 
+{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #4CAF50; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-info 
+{
+    width: 300px;
+    margin: auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+.contact-info h2 
+{
+    text-align: center;
+    color: #333; 
+}
+
+.contact-info p 
+{
+    margin: 5px 0;
+    color: #555;
+}
+
+.contact-info a 
+{
+    color: #007BFF; 
+    text-decoration: none;
+}
+.foot-panel3
+{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5 px solid white;
+    height:70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright
+{
+    padding-top: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
